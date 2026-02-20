@@ -13,5 +13,5 @@ spec:
   volumes:
     - name: shared-data
       hostPath:
-        path: C:/FIAP/Aulas/02-microsservicos-e-orquestracao-de-containers/02-kubernetes/aula-06\/opic-01\exemplo_2\data
-  
+        path: /run/desktop/mnt/host/c/FIAP/Aulas/02-microsservicos-e-orquestracao-de-containers/02-kubernetes/aula-06/topic-01/exemplo_2/data
+        type: Directory
